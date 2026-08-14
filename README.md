@@ -10,7 +10,7 @@ CVR Analysis (Vincent Pichot and al., 2024. DOI : 10.3389/fphys.2023.1224440). D
 Brain-Heart-Interaction-Indexes (Vincenzo Catrambone and al., 2019. DOI : 10.1007/s10439-019-02251-y. Github : https://github.com/CatramboneVincenzo/Brain-Heart-Interaction-Indexes)
 
 # Process
-1. EEG signals were preprocessed following the HAPPE pipeline (Gabard-Durnam et al., 2018. DOI: 10.3389/fnins.2018.00097, GitHub: https://github.com/PINE-Lab/HAPPE):
+1. EEG signals were preprocessed following the HAPPE pipeline (Gabard-Durnam et al., 2018. DOI: 10.3389/fnins.2018.00097):
     
     _Cf. Brain_Process_Script.m_
     
