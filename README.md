@@ -22,7 +22,7 @@ Brain-Heart-Interaction-Indexes (Vincenzo Catrambone and al., 2019. DOI : 10.100
 
     Visually inspect the data.
 
-    Compute the EEG power spectral density (PSD) for each frequency band. Result as a matrix (N chanels X N Times), for all frequency band.
+    Compute the EEG power spectral density (PSD) for each frequency band. Result as a matrix (N Channels X N Times), for all frequency band.
 2. ECG signals were preprocessed like:
 
     Band-pass filter using a fourth-order Butterworth filter (0.5–45 Hz). ECG signal underwent peak-to-peak analysis to detect R waves within the QRS complex.
