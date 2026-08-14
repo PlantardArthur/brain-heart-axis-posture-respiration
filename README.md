@@ -31,17 +31,23 @@ Brain-Heart-Interaction-Indexes (Vincenzo Catrambone and al., 2019. DOI : 10.100
     
     Compute HRV spectral components using the Discrete Wavelet Transform (Daubechies 4 mother wavelet) applied to the R-R interval (RRI) series resampled at 2.4 Hz, using 7 decomposition levels (2, 4, 8, 16, 32, 64, and 128 Hz), following Pichot et al. (1999) and using CVR Analysis. Result as a matrix (LF or HF frequency X N Times), for all frequency bands.
 3. Compute brain-heart coupling metrics for each condition: 
-
+    
+    _CF. BHI_Calcul.m_
+    
     Compute brain-heart interplay indices using the Brain-Heart Interaction Indexes toolbox, Github : https://github.com/CatramboneVincenzo/Brain-Heart-Interaction-Indexes.
 
 4. Statistical comparisons across conditions: 
+
+    Need the median of the BHI calculate for example in the Median_BHI.m script.
+
+    _CF. Stat_and_Figure.m_
 
     Conditions were compared using the Friedman test followed by pairwise Wilcoxon signed-rank tests, with correction for multiple comparisons via spatial permutation testing. 
 
     Spearman correlations were used to assess the relationship between cardiovascular parameters and brain-heart interplay indices.
 
 # Reproducing the figures
-Figures reported in the article can be regenerated using the Fig.mat script.
+Figures reported in the article can be regenerated using the Stat_and_Figure.m script.
 
 # Citation
 If you use this code, please cite the associated article:
