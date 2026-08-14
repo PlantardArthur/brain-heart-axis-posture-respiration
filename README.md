@@ -26,12 +26,9 @@ Brain-Heart-Interaction-Indexes (Vincenzo Catrambone and al., 2019. DOI : 10.100
     Band-pass filter using a fourth-order Butterworth filter (0.5–45 Hz). ECG signal underwent peak-to-peak analysis to detect R waves within the QRS complex.
     
     And compute blood pressure values and baroreflex sensitivity (BRS) using CVR Analysis (Pichot et al., 2024).
-
+    
+    Compute HRV spectral components using the Discrete Wavelet Transform (Daubechies 4 mother wavelet) applied to the R-R interval (RRI) series resampled at 2.4 Hz, using 7 decomposition levels (2, 4, 8, 16, 32, 64, and 128 Hz), following Pichot et al. (1999) and using CVR Analysis.
 3. Compute brain-heart coupling metrics for each condition
-
-    Need to compute the EEG power spectral density (PSD) for each frequency band.
-
-    Need to compute HRV spectral components using the Discrete Wavelet Transform (Daubechies 4 mother wavelet) applied to the R-R interval (RRI) series resampled at 2.4 Hz, using 7 decomposition levels (2, 4, 8, 16, 32, 64, and 128 Hz), following Pichot et al. (1999) and using CVR Analysis.
 
     Compute brain-heart interplay indices using the Brain-Heart Interaction Indexes toolbox, Github : https://github.com/CatramboneVincenzo/Brain-Heart-Interaction-Indexes.
 
