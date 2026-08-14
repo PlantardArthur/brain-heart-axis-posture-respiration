@@ -1,6 +1,6 @@
 # brain-heart-axis-posture-respiration
 
-This repository contains the code used to assess how postural changes (e.g., supine vs. standing/tilt) and respiratory patterns (e.g., paced breathing, respiratory rate) influence the functional communication between the brain and the heart. The analysis quantifies brain-heart interplay (e.g., EEG–ECG/HRV coupling) across experimental conditions to characterize how autonomic and central nervous system activity co-vary under postural and respiratory manipulation.
+This repository contains the code used to assess how postural changes (e.g., supine vs. upright) and respiratory patterns (e.g., slow-paced breathing, normal respiration) influence the functional communication between the brain and the heart. The analysis quantifies brain-heart interplay (e.g., EEG–ECG/HRV coupling) across experimental conditions to characterize how autonomic and central nervous system activity co-vary under postural and respiratory manipulation.
 
 # Requirements
 Matlab (R2024a), Brainstorm toolbox and EEGlab toolbox.
