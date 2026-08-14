@@ -30,11 +30,11 @@ Brain-Heart-Interaction-Indexes (Vincenzo Catrambone and al., 2019. DOI : 10.100
     And compute blood pressure values and baroreflex sensitivity (BRS) using CVR Analysis (Pichot et al., 2024).
     
     Compute HRV spectral components using the Discrete Wavelet Transform (Daubechies 4 mother wavelet) applied to the R-R interval (RRI) series resampled at 2.4 Hz, using 7 decomposition levels (2, 4, 8, 16, 32, 64, and 128 Hz), following Pichot et al. (1999) and using CVR Analysis. Result as a matrix (LF or HF frequency X N Times), for all frequency bands.
-3. Compute brain-heart coupling metrics for each condition
+3. Compute brain-heart coupling metrics for each condition: 
 
     Compute brain-heart interplay indices using the Brain-Heart Interaction Indexes toolbox, Github : https://github.com/CatramboneVincenzo/Brain-Heart-Interaction-Indexes.
 
-4. Statistical comparisons across conditions
+4. Statistical comparisons across conditions: 
 
     Conditions were compared using the Friedman test followed by pairwise Wilcoxon signed-rank tests, with correction for multiple comparisons via spatial permutation testing. 
 
