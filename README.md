@@ -11,7 +11,9 @@ Brain-Heart-Interaction-Indexes (Vincenzo Catrambone and al., 2019. DOI : 10.100
 
 # Process
 1. EEG signals were preprocessed following the HAPPE pipeline (Gabard-Durnam et al., 2018. DOI: 10.3389/fnins.2018.00097, GitHub: https://github.com/PINE-Lab/HAPPE):
-
+    
+    _Cf. Brain_Process_Script.m_
+    
     Resample to 512 Hz.
 
     Band-pass filter using a fourth-order Butterworth filter (0.5–45 Hz).
